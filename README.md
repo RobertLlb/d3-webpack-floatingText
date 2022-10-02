@@ -1,18 +1,45 @@
 # star-wars-d3
 
-npm run build
-npm run watch 
-npm run start
+STAR WARS scrolling text from the 1977 movie.
+
+D3 and CSS3 are used to animate images and text
 
 
-served on http://localhost:3000/
+
+## Installation 
+
+<code>
+git clone https://github.com/liam-grossmann/star-wars-d3.git
+
+npm install
+</code>
 
 
+
+## Build and Run 
+
+### Development
+
+<code>
+> npm run build
+
+> npm run start
+
+> npm run watch 
+</code>
+
+
+### Production
+
+When code is checked into github a [workflow job](https://github.com/liam-grossmann/star-wars-d3/blob/main/.github/workflows/azure-static-web-apps-nice-bush-0e3f23110.yml) is automatically run to build and deploy the application to Azure.
 
 
 ## Hosted
 
-https://nice-bush-0e3f23110.2.azurestaticapps.net/
+| Environment | Description                          | Url                                                |
+| ------------| ------------------------------------ | -------------------------------------------------- |
+| Dev          | Hosted by Webpack                   | http://localhost:3000/                             | 
+| Production   | Hosted by Azure as a static web app | https://nice-bush-0e3f23110.2.azurestaticapps.net/ |
 
 
 
@@ -20,8 +47,8 @@ https://nice-bush-0e3f23110.2.azurestaticapps.net/
 
 | Component     | Use                              | Documentation |
 | ------------- | -------------------------------- | ------------------------------------------------ |
-| Webpack v5.0  | Building and bundling the assets | [https://webpack.js.org/guides/](Webpack Guides) | 
-| Lodash 4.17   | Used as a replacement for jQuery | [https://lodash.com/](Lodash home page)          |
+| Webpack v5.0  | Building and bundling the assets | [Webpack Guides](https://webpack.js.org/guides/) | 
+| D3            | Data visualisations library      | [Data Driven Documents](https://d3js.org/)       |
 
 
 
@@ -39,6 +66,10 @@ Not covered
 
 
 ##  ToDo
+
+01) Get the image working
+02) Add an icon png
+03) Do I need Lodash ?
 
 Had to take out     devtool: 'inline-source-map',
 because the output budle was 1.3 Mb. Wtf ?

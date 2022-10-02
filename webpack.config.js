@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         index: path.resolve(__dirname, 'src/index.js'),
-        print: path.resolve(__dirname, 'src/print.js'),
+        starwars: path.resolve(__dirname, 'src/starwars/starwars.js'),
     },
     mode: 'development',
     devServer: {
@@ -28,6 +28,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[contenthash].js',
+        assetModuleFilename: '[name].[ext]',
         clean: true,
     },
     module: {
@@ -35,6 +36,10 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
             },
         ],
     },
