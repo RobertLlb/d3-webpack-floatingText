@@ -4,6 +4,11 @@ STAR WARS scrolling text from the 1977 movie.
 
 D3 and CSS3 are used to animate images and text. Project built using webpack 5.0.
 
+**Click [here](https://nice-bush-0e3f23110.2.azurestaticapps.net/) for live demo.**
+
+
+![image](src/assets/starwars.jpg)
+
 
 
 ## Installation 
