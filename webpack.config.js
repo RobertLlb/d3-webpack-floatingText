@@ -22,7 +22,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Star-Wars-D3',
             filename: 'index.html',
-            template: 'src/template.html'
+            template: 'src/template.html',
+            favicon: 'src/assets/favicon.ico',
         }),
       ],
     output: {
@@ -38,7 +39,7 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
                 type: 'asset/resource',
             },
         ],

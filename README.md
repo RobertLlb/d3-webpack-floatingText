@@ -8,11 +8,11 @@ D3 and CSS3 are used to animate images and text
 
 ## Installation 
 
-<code>
-git clone https://github.com/liam-grossmann/star-wars-d3.git
 
-npm install
-</code>
+    git clone https://github.com/liam-grossmann/star-wars-d3.git
+
+    npm install
+
 
 
 
@@ -20,13 +20,11 @@ npm install
 
 ### Development
 
-<code>
-> npm run build
+    npm run build
 
-> npm run start
+    npm run start
 
-> npm run watch 
-</code>
+    npm run watch 
 
 
 ### Production
