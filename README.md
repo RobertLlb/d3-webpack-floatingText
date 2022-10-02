@@ -2,7 +2,7 @@
 
 STAR WARS scrolling text from the 1977 movie.
 
-D3 and CSS3 are used to animate images and text
+D3 and CSS3 are used to animate images and text. Project built using webpack 5.0.
 
 
 
@@ -18,7 +18,7 @@ D3 and CSS3 are used to animate images and text
 
 ## Build and Run 
 
-### Development
+Development
 
     npm run build
 
@@ -27,7 +27,7 @@ D3 and CSS3 are used to animate images and text
     npm run watch 
 
 
-### Production
+Production
 
 When code is checked into github a [workflow job](https://github.com/liam-grossmann/star-wars-d3/blob/main/.github/workflows/azure-static-web-apps-nice-bush-0e3f23110.yml) is automatically run to build and deploy the application to Azure.
 
@@ -60,14 +60,6 @@ Webpack configured
 
 Not covered
 * Code splitting (on demand loads etc)
+* Source maps removed because package bundle was too big.
 
 
-
-##  ToDo
-
-01) Get the image working
-02) Add an icon png
-03) Do I need Lodash ?
-
-Had to take out     devtool: 'inline-source-map',
-because the output budle was 1.3 Mb. Wtf ?
