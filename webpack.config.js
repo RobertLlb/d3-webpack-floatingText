@@ -3,21 +3,31 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        index: './src/index.js',
-        print: './src/print.js',
+        index: path.resolve(__dirname, 'src/index.js'),
+        print: path.resolve(__dirname, 'src/print.js'),
     },
     mode: 'development',
     devServer: {
-        static: './dist',
-      },
+        static: {
+            directory: path.resolve(__dirname, 'dist'),
+        },
+        port: 3000,
+        open: true,
+        hot: true,
+        compress: true,
+        historyApiFallback: true,
+    },
+    
     plugins: [
         new HtmlWebpackPlugin({
-          title: 'Star-Wars-D3',
+            title: 'Star-Wars-D3',
+            filename: 'index.html',
+            template: 'src/template.html'
         }),
       ],
     output: {
-        filename: '[name].[contenthash].js',
         path: path.resolve(__dirname, 'dist'),
+        filename: '[name].[contenthash].js',
         clean: true,
     },
     module: {

@@ -4,7 +4,6 @@
   "description": "Simple java script application which showcases Star Wars rolling text using D3 animations",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
@@ -34,6 +33,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "d3": "^7.6.1",
     "lodash": "^4.17.21"
   }
 }

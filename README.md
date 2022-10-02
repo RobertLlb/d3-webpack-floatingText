@@ -5,12 +5,14 @@ npm run watch
 npm run start
 
 
-served on http://localhost:8080/
+served on http://localhost:3000/
 
 
 
 
+## Hosted
 
+https://nice-bush-0e3f23110.2.azurestaticapps.net/
 
 
 
@@ -19,7 +21,7 @@ served on http://localhost:8080/
 | Component     | Use                              | Documentation |
 | ------------- | -------------------------------- | ------------------------------------------------ |
 | Webpack v5.0  | Building and bundling the assets | [https://webpack.js.org/guides/](Webpack Guides) | 
-| Lodash 4.17   | Used as a replacement for jQuery | [https://lodash.com/](Lodash home page)
+| Lodash 4.17   | Used as a replacement for jQuery | [https://lodash.com/](Lodash home page)          |
 
 
 
