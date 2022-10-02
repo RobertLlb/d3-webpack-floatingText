@@ -16,7 +16,9 @@
     "data-visualizations",
     "d3-visualization",
     "d3",
-    "star-wars"
+    "star-wars",
+    "webpack",
+    "webpack5"
   ],
   "author": "Liam Grossmann",
   "license": "MIT",
