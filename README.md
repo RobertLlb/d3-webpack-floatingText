@@ -24,16 +24,12 @@ D3 and CSS3 are used to animate images and text. Project built using webpack 5.0
 
 ## Build and Run 
 
-Development
-
     npm run dev
 
     npm run build
 
     npm run serve 
 
-
-Production
 
 When code is checked into github a [workflow job](https://github.com/liam-grossmann/star-wars-d3/blob/main/.github/workflows/azure-static-web-apps-nice-bush-0e3f23110.yml) is automatically run to build and deploy the application to Azure.
 
