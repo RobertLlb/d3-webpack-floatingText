@@ -4,9 +4,9 @@
   "description": "Simple java script application which showcases Star Wars rolling text using D3 animations",
   "private": true,
   "scripts": {
-    "watch": "webpack --watch",
-    "start": "webpack serve --open",
-    "build": "webpack"
+    "dev":   "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "serve": "webpack serve --open"
   },
   "repository": {
     "type": "git",

@@ -6,8 +6,9 @@ D3 and CSS3 are used to animate images and text. Project built using webpack 5.0
 
 **Click [here](https://nice-bush-0e3f23110.2.azurestaticapps.net/) for live demo.**
 
+[<img src="src/assets/starwars.jpg" style="width: 50%; height: 50%" />](https://nice-bush-0e3f23110.2.azurestaticapps.net/)
 
-![image](src/assets/starwars.jpg)
+
 
 
 
@@ -25,11 +26,11 @@ D3 and CSS3 are used to animate images and text. Project built using webpack 5.0
 
 Development
 
+    npm run dev
+
     npm run build
 
-    npm run start
-
-    npm run watch 
+    npm run serve 
 
 
 Production
