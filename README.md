@@ -1,26 +1,14 @@
-# star-wars-d3
-
-STAR WARS scrolling text from the 1977 movie.
+# d3-webpack-floatingText
 
 Javascript, D3.js and CSS3 are used to animate images and text. Project built using webpack 5.0.
 
-**Click [here](https://gentle-smoke-0903b9703.2.azurestaticapps.net/) for live demo.**
-
-[<img src="src/assets/starwars.jpg" style="width: 50%; height: 50%" />](https://gentle-smoke-0903b9703.2.azurestaticapps.net/)
-
-
-
-
+[<img src="src/assets/list-text.jpg" style="width: 50%; height: 50%" />]
 
 ## Installation 
-
 
     git clone https://github.com/liam-grossmann/star-wars-d3.git
 
     npm install
-
-
-
 
 ## Build and Run 
 
@@ -29,19 +17,6 @@ Javascript, D3.js and CSS3 are used to animate images and text. Project built us
     npm run build
 
     npm run serve 
-
-
-When code is checked into github a [workflow job](./.github/workflows/azure-static-web-apps-nice-bush-0e3f23110.yml) is automatically run to build and deploy the application to Azure.
-
-
-## Hosted
-
-| Environment  | Description                         | Url                                                |
-| -------------| ----------------------------------- | -------------------------------------------------- |
-| Development  | Hosted by Webpack                   | http://localhost:3000/                             | 
-| Production   | Hosted by Azure as a static web app | https://nice-bush-0e3f23110.2.azurestaticapps.net/ |
-
-
 
 ## Dependencies
 

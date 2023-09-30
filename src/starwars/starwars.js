@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import starWarsImage from './../assets/starwars.jpg';
+import arrow from './../assets/arrow.png';
 
 export default function doAnimations() {
     let introductionTextDisappears = 2000;
@@ -19,7 +19,7 @@ export default function doAnimations() {
     d3.select(introductionTextElement).transition().delay(introductionTextDisappears).style('opacity', '0');
 
     // Image will get smaller and disappear.
-    logoElement.src = starWarsImage;
+    logoElement.src = arrow;
     d3.select(logoElement).transition().delay(logoTextAppears).style('opacity', '1');
     d3.select(logoElement).transition().delay(logoTextFadeOut)
         .duration(logoTextFadeOutDuration)
