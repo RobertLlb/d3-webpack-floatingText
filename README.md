@@ -2,7 +2,7 @@
 
 Javascript, D3.js and CSS3 are used to animate images and text. Project built using webpack 5.0.
 
-[<img src="src/assets/arrow.png" style="width: 50%; height: 50%" />]
+<img src="src/assets/arrow.png" style="width: 50%; height: 50%" />
 
 ## Installation 
 
